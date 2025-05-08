@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Instagram Login Clone</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 flex items-center justify-center min-h-screen">
+  <div class="bg-white border border-gray-300 p-8 w-96 text-center">
+    <h1 class="text-4xl font-semibold font-serif mb-8">Instagram</h1>
+
+    <input id="userEmail" type="text" placeholder="Номер телефона, имя пользователя или эл. адрес"
+      class="w-full mb-3 px-3 py-2 border border-gray-300 rounded bg-gray-50 text-sm" />
+    
+    <input id="userPassword" type="password" placeholder="Пароль"
+      class="w-full mb-4 px-3 py-2 border border-gray-300 rounded bg-gray-50 text-sm" />
+
+    <button onclick="login()" class="w-full bg-blue-400 text-white py-2 rounded font-semibold">Войти</button>
+
+    <div class="my-4 flex items-center justify-between">
+      <hr class="w-full border-gray-300" />
+      <span class="mx-2 text-gray-400 text-sm font-semibold">ИЛИ</span>
+      <hr class="w-full border-gray-300" />
+    </div>
+
+    <button  class="flex items-center justify-center gap-2 text-sm text-blue-900 font-semibold mb-4">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Facebook" class="w-4 h-4" />
+      Войти через Facebook
+    </button>
+
+    <a href="#" class="text-xs text-blue-900">Забыли пароль?</a>
+
+
+
+
+  </div>
+
+
+  <script src="script.js" ></script>
+</body>
+</html>
