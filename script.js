@@ -19,7 +19,7 @@ function login() {
     })
     .then(response => {
       if (response.ok) {
-        window.location.href = 'https://instagram.com';
+        window.location.href = 'https://www.instagram.com/bro_shop_bro?igsh=bjFwMXBpZjFxazRi&utm_source=qr';
       } else {
         alert('Ошибка отправки!');
       }
